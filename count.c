@@ -13,7 +13,7 @@ void numbers(int i, int starting_number, int entered_number){
 	}
 			
 	else{
-		printf("\t\t%d\n", i);
+		printf("%d\n", i);
 	}
 }
 
@@ -38,19 +38,7 @@ int main ( ){
 	
 	else if(entered_number >= starting_number){
 		for(int i = starting_number; i <= entered_number; i++){
-
 			numbers(i, starting_number, entered_number);
-			/*if( i == starting_number){
-				printf("\n Starting number: %d", starting_number);
-			}
-			
-			else if( i == entered_number){
-				printf("Entered_number:  %d\n", entered_number);			
-			}
-			
-			else{
-				printf("\n\t\t %d\n", i);
-			}*/
 		}
 	}
 	
