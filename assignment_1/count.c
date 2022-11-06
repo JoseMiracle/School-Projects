@@ -13,7 +13,7 @@ void numbers(int i, int starting_number, int entered_number){
 	}
 			
 	else{
-		printf("%d\n", i);
+		printf("\t\t %d \n", i);
 	}
 }
 
